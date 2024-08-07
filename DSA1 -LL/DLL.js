@@ -41,7 +41,7 @@ class LinkedList
                 this.head = new_Node 
         }
         this.size++
-        console.log("Prepended a node with value" , newNode.value)
+        console.log("Prepended a node with value" , new_Node.value)
     }
     print()
     {
@@ -104,7 +104,7 @@ class LinkedList
 
         }
         this.size --;
-        console.log("Removed a node from front with value" , newNode.value)
+        console.log("Removed a node from front ")
 
     }
     removeFromEnd() {
@@ -118,7 +118,7 @@ class LinkedList
            this.tail = prevNode
            this.size --;
         }
-        console.log("Removed a node from end with value" , newNode.value)
+        console.log("Removed a node from end ")
 
     }
     printReverse() 

@@ -11,4 +11,6 @@ function linearSearch(arr,target)
     return -1
 }
 
-console.log(linearSearch([1,2,3,4,7,5,6,8],17))
+const arr = [30,20,10,45]
+const target = 30
+console.log(`Searched using linear Search Element ${target} in array ${arr} is at position : ${linearSearch(arr,target)}`)

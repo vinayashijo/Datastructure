@@ -23,5 +23,11 @@ function binarySearch(arr, target) {
 
 // Example usage:
 const sortedArray = [10, 20, 30, 40, 50];
-console.log(binarySearch(sortedArray, 30)); // Output: 2
-console.log(binarySearch(sortedArray, 60)); // Output: -1
+let target = 30
+console.log(`Searched Element ${target} in array : ${sortedArray} is at position : ${binarySearch(sortedArray, target)} `);
+target = 60
+console.log(`Searched Element ${target} in array : ${sortedArray} is at position : ${binarySearch(sortedArray, target)} `); 
+ // Output: 2
+// console.log(binarySearch(sortedArray, 60)); // Output: -1
+
+
